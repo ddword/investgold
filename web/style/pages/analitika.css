@@ -3,7 +3,7 @@ p{
 }
 h1 {
     text-transform: uppercase;
-    font-size: 120%;
+    font-size: 140%;
     color: #ffffff;
 }
 h2 {
@@ -143,7 +143,7 @@ h1 span.right-title:before {
     display: block;
     height: auto;
     content: "";
-    background-image: url('/images/fond_merchant_title.png');
+    background-image: url('/images/merchant_title.png');
     background-repeat: no-repeat;
     background-position: 20px center;
 }
