@@ -299,7 +299,7 @@ h1 span.right-title:before {
     margin-right: -15px;
 }
 
-@media (min-width: 1700px) {
+@media (max-width: 1700px) {
     .content .top-heading .top-row {
         height: 300px;/*1700px*/
     }
@@ -333,7 +333,7 @@ h1 span.right-title:before {
     }
 }
 
-@media (min-width: 1300px) {
+@media (max-width: 1300px) {
     .content .top-heading .top-row {
         height: 230px;/*1300px*/
     }
