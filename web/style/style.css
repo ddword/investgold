@@ -1,0 +1,298 @@
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #000000;
+    /*background-image: url("../back.jpg");*/
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat;*/
+    min-width: 1000px;
+    font-family: "air255regular";
+    font-size: 100%;
+    position: relative;
+}
+.menu > div:nth-child(2) a {
+    display: block;
+    color: #fff;
+}
+.container-fluid:first-child {
+    position: absolute;
+    color: #fff;
+    overflow: hidden;
+    width: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: #363637;
+    padding: 0;
+    z-index: 2;
+    overflow-y: auto;
+}
+.header,
+.header a {
+    color: #ffffff;
+}
+
+.header > div {
+    height: 80px;
+    line-height: 80px;
+}
+
+.header > div:nth-child(1) > a {
+    display: inline-block;
+}
+
+.header > div:nth-child(1) > a:nth-child(1) {
+    width: 5%;
+    margin-left: 13px;
+    margin-right: 20px;
+    text-align: center;
+    background-image: url("/images/menu-initial.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    height: 28px;
+}
+.header > div:nth-child(1) > a:nth-child(1):hover {
+    background-image: url("/images/menu-hover.png");
+}
+
+.header > div:nth-child(1) > a:nth-child(1) img {
+    width: 35%;
+}
+
+.header > div:nth-child(1) > a:nth-child(2) {
+    width: 58%;
+}
+
+.header > div:nth-child(1) > a:nth-child(2) img {
+    width: 100%;
+}
+
+.header > div:nth-child(3) > div > div {
+    height: 80px;
+}
+.header > div:nth-child(3) > div > div:nth-child(2) ul {
+    text-align: right;
+}
+.header > div:nth-child(3) > div > div:nth-child(2) a  {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    height: 80px;
+    color: #fff;
+}
+.header > div:nth-child(3) p {
+    margin: 0;
+}
+.header > div:nth-child(3) a > img {
+    height: 18%;
+}
+.header > div:nth-child(3) ul {
+    padding-left:20%;
+    text-align: left;
+    list-style-type: none;
+    line-height: normal;
+    height: 100%;
+    margin: 0;
+    float: right;
+    display: inline-block;
+}
+.header > div:nth-child(3) ul>li {
+    font-size: 90%;
+}
+.header > div:nth-child(3) ul>li>div {
+    line-height: 40px;
+}
+.header > div:nth-child(3) ul>li:nth-child(1)>div>span {
+    line-height: normal;
+    vertical-align: bottom;
+}
+.header > div:nth-child(3) ul>li:nth-child(2)>div>a {
+    line-height: normal;
+    vertical-align: top;
+}
+
+.header > div:nth-child(2) {
+    text-align: center;
+}
+.clock {
+    padding-top: 4px;
+    padding-bottom: 6px;
+    display: inline-block;
+    width: 56px;
+    height: 100%;
+    font-size: 70%;
+    text-transform: uppercase;
+}
+.clock > .scoreboard {
+    text-align: center;
+    height: 80%;
+    line-height: normal;
+}
+.clock > .name {
+    word-break: keep-all;
+    white-space: nowrap;
+    text-align: center;
+    height: 20%;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+/*Выезжающее меню*/
+div.menu > div:nth-child(2) > div > div {
+    margin-top: 50px;
+    border-left: 1px solid #f0b66e;
+    margin-bottom: 50px;
+}
+div.menu > div:nth-child(2) a {
+    font-size: 70%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.menu > div:nth-child(2) > div:nth-child(2) a:after,
+div.menu > div:nth-child(2) > div:nth-child(3) a:after {
+    display: inline-block;
+    content: '';
+    width: 7px;
+    vertical-align: middle;
+    margin-left: 14px;
+    margin-right: 20px;
+    height: 33px;
+    line-height: 89px;
+    background-image: url("/images/gold-right.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+div.menu > div:nth-child(2) > div:nth-child(3) a:after {
+    margin-left: 14px;
+    margin-right: 20px;
+}
+
+div.menu > div:nth-child(2) > div a:hover {
+    text-decoration: none;
+}
+
+div.menu > div:nth-child(2) > div:nth-child(1) a:before,
+div.menu > div:nth-child(2) > div:nth-child(2) a:before,
+div.menu > div:nth-child(2) > div:nth-child(3) a:before,
+div.menu > div:nth-child(2) > div:nth-child(1) a:after,
+div.menu > div:nth-child(2) > div:nth-child(2) a:after,
+div.menu > div:nth-child(2) > div:nth-child(3) a:after {
+    width: 7px;
+    height: 33px;
+}
+
+.menu > div:nth-child(1) {
+    background-color: #000000;
+}
+.menu > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) img {
+    height: 50%;
+}
+.menu > div:nth-child(1) > div:nth-child(1) > a:nth-child(1) {
+    margin-left: 20px;
+    display: inline-block;
+    height: 100%;
+}
+.menu > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) img {
+    height: 40%;
+}
+.menu > div:nth-child(1) > div:nth-child(2) > a:nth-child(1) {
+    margin-right: 10px;
+    display: inline-block;
+    height: 100%;
+}
+.menu > div:nth-child(1) > div {
+    height: 80px;
+    line-height: 80px;
+}
+.menu > div:nth-child(2) > div:nth-child(1) {
+    text-align: left;
+}
+.menu > div:nth-child(2) > div:nth-child(2) {
+    text-align: center;
+}
+.menu > div:nth-child(2) > div:nth-child(3) {
+    text-align: right;
+}
+.menu > div:nth-child(2) > div > a {
+    display: block;
+}
+
+.promo a {
+    overflow: hidden;
+}
+.promo a > span {
+    font-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 230px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.promo a > span > span:before, .news-feed a:before {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    content: '';
+    width: 160px;
+    height: 16px;
+    background-image: url("/images/gold-top.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.promo a > span > span:after, .news-feed a:after {
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    content: '';
+    width: 160px;
+    height: 16px;
+    background-image: url("/images/gold-bottom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.promo > div:nth-child(4) > a > span > span > span {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    padding-top: 55px;
+}
+
+
+.footer {
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 80%;
+}
+.footer img {
+    width: 30%;
+}
+.footer p {
+    margin: 0;
+}
+.footer > div:nth-child(1),
+.footer > div:nth-child(2) {
+    text-align: center;
+}
+.white {
+    background-color: #fff;
+}

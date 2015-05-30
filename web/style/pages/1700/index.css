@@ -1,0 +1,19 @@
+@media (min-width: 1700px) {
+
+    table.table {
+        font-size: 100%;
+    }
+    .content > div:nth-child(2) {
+        font-size: 130%;
+    }
+    h2 {
+        font-size: 130%;
+    }
+    .content > div:nth-child(1) > div:nth-child(2) {
+        font-size: 130%;
+    }
+    .content > div:nth-child(1) > div:nth-child(1) a > span > span:before,
+    .content > div:nth-child(1) > div:nth-child(1) a > span > span:after {
+        width: 280px;
+    }
+}

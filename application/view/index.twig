@@ -1,0 +1,123 @@
+{% extends "layout.twig" %}
+{% block content %}
+<script type="text/javascript" src="js/pages/index.js"></script>
+<link href="style/pages/index.css" rel="stylesheet">
+<link href="style/pages/1300/index.css" rel="stylesheet">
+<link href="style/pages/1700/index.css" rel="stylesheet">
+<div class="row promo">
+    <div class="col-xs-4">
+        <a href="{{ app.url_generator.generate('стратегии управления капиталом') }}" class="disabled">
+            <video loop="">
+                <source src="flash/capital_management_strategy.webm" type="video/webm">
+                <source src="flash/capital_management_strategy.mp4" type="video/mp4">
+            </video>
+            <span><span><span>Стратегии<br> управления<br> капиталом</span></span></span>
+        </a>
+    </div>
+    <div class="col-xs-4">
+        <a href="{{ app.url_generator.generate('инвестиционные портфели') }}" class="disabled">
+            <video loop="">
+                <source src="flash/investment_pack.webm" type="video/webm">
+                <source src="flash/investment_pack.mp4" type="video/mp4">
+            </video>
+            <span><span><span>инвестиционные<br> портфели</span></span></span>
+        </a>
+    </div>
+    <div class="col-xs-4">
+        <a href="{{ app.url_generator.generate('алгоритмическая торговля') }}" class="disabled">
+            <video loop="">
+                <source src="flash/algorythmic_trade.webm" type="video/webm">
+                <source src="flash/algorythmic_trade.mp4" type="video/mp4">
+            </video>
+            <span><span><span>алгоритмическая<br> торговля</span></span></span>
+        </a>
+    </div>
+    <div class="col-xs-8">
+        <a href="{{ app.url_generator.generate('хеджирование валютного риска') }}" class="disabled">
+            <video loop="">
+                <source src="flash/hedging.webm" type="video/webm">
+                <source src="flash/hedging.mp4" type="video/mp4">
+            </video>
+            <span><span><span>хеджирование<br> валютного<br> риска</span></span></span>
+        </a>
+    </div>
+    <div class="col-xs-4">
+        <a href="{{ app.url_generator.generate('аналитика') }}" class="disabled">
+            <video loop="">
+                <source src="flash/analytics.webm" type="video/webm">
+                <source src="flash/analytics.mp4" type="video/mp4">
+            </video>
+            <span><span><span>Аналитика</span></span></span>
+        </a>
+    </div>
+</div>
+<div class="row content">
+    <div class="col-xs-4">
+        <div>
+            <a href="{{ app.url_generator.generate('партнеры') }}" class="disabled">
+                <video loop="">
+                    <source src="flash/partners.webm" type="video/webm">
+                    <source src="flash/partners.mp4" type="video/mp4">
+                </video>
+                <span><span><span>Партнеры<br> INVEST GOLD</span></span></span>
+            </a>
+        </div>
+        <div>
+            <p class="date">27.01.2015</p>
+
+            <p><a href="#">Западные СМИ назвали решение S&P «последним ударом по Кремлю»</a></p>
+
+            <p>Агентство S & P последним из "большой тройки" повысило рейтинг России до инвестиционного уровня - в
+                январе 2005 года. И вот, спустя ровно десять лет, российский рейтинг по шкале самого консервативного из
+                агентств вернулся в спекулятивную, или "мусорную" зону...</p>
+        </div>
+    </div>
+    <div class="col-xs-4">
+        <h1>О компании</h1>
+
+        <h2>мы</h2>
+
+        <p>ООО «Инвест-Голд» - команда профессиональных трейдеров.</p>
+
+        <p>Основные направления деятельности – предоставление консалтинговых услуг на финансовых рынках, управление
+            капиталом, алгоритмическая торговля.</p>
+
+        <p>«Инвест-Голд» обеспечивает особый комфорт и условия сотрудничества.</p>
+
+        <p>В распоряжение инвестора предоставляется персональный менеджер и управляющий активами, задача которых —
+            защищать ваши финансовые интересы, а также обеспечивать быстрый и удобный доступ ко всем необходимым
+            услугам.</p>
+
+        <p>«Инвест-Голд» гарантируем полную конфиденциальность, индивидуальный подход и минимум формальностей при
+            обслуживании.</p>
+    </div>
+    <div class="col-xs-4">
+        <div>
+            <h2>Биржевые индексы</h2>
+
+            <div class="custom stock-quotes">
+                <table class="table" data-key="common">
+                    <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div>
+            <h2>Курсы валют</h2>
+
+            <div class="custom exchange-rates">
+                <table class="table" data-key="common">
+                    <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

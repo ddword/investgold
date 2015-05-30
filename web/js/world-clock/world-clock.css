@@ -1,0 +1,4 @@
+.clock circle.border { stroke-width: 2px; stroke: #fff; }
+.clock circle.dot { stroke-width: 0px; fill: #fff; }
+.clock circle.pin { stroke-width: 1px; stroke: #fff; fill: #000; }
+.clock .hour, .clock .minute { stroke-width: 0px; fill: #fff; }

@@ -1,0 +1,28 @@
+@media (min-width: 1700px) {
+    .content .heading div {
+        height: 301px;
+    }
+    .content .heading div:nth-child(2) h1 span {
+        font-size: 90%;
+    }
+    .content .heading div:nth-child(2) h1 {
+        margin-top: 90px;
+    }
+    .content .white h2 {
+        font-size: 150%;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .content .white p,
+    .content .gray p,
+    .content .border-table p,
+    .content .border-table ul li {
+        font-size: 125%;
+    }
+    .content .white a {
+        font-size: 110%;
+    }
+    .content .heading.second img {
+        width: 480px;
+    }
+}

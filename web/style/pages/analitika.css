@@ -1,0 +1,390 @@
+p{
+	color: #fff;
+}
+		h1 {
+		text-transform: uppercase;
+		font-size: 120%;
+		color: #ffffff;
+		}
+		h2 {
+			text-transform: uppercase;
+			font-size: 100%;
+			color: #ffffff;
+		}
+		h1 span:after {
+			display: block;
+			content: ' ';
+			margin-top: 10px;
+			background-image: url("/images/gold-header-after.png");
+			width: 110px;
+			margin-left:auto;
+			margin-right: auto;
+			height: 1px;
+		}
+		h1 span.img-title {
+			display: block;
+			position:relative;
+		}
+		h1 span.right-title:after {
+			display: none;
+		}
+		h1 span.right-title:before,
+		.vrez:before {
+			  display: inline-block;
+			  content: ' ';
+			  background-image: url("/images/hr.png");
+			  background-repeat: no-repeat;
+			  margin-right: 10px;
+			  height: 36px;
+			  width: 2px;
+			  background-size: contain;
+			  vertical-align: middle;
+		}
+		.grey {
+		color: #ffffff;
+		background-color: #363637;
+		}
+		.dark-grey {
+		background-color: #242424;
+		}
+		.grey-gradient {
+		color: #fff;
+		background: rgb(76,76,76);
+		background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(111,111,111,1) 50%, rgba(76,76,76,1) 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(76,76,76,1)), color-stop(50%,rgba(111,111,111,1)), color-stop(100%,rgba(76,76,76,1)));
+		background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: -o-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: linear-gradient(to right, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=1 );
+		text-align: center;
+		}
+		.content .top-heading {		
+		}	
+		.content .top-heading .top-row {
+			height: 350px;
+            height: 300px;/*1700px*/
+            height: 230px;/*1300px*/
+		}
+		.top-heading .top-row .h-title.grey .block-title {
+			text-align: center;	
+			margin-top: 100px;
+            margin-top: 80px;/*1700px*/
+            margin-top: 45px;/*1300px*/
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(1) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_fond_merchant.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(3) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_forex.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(5) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_products_merchant.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.hr-divider{
+			border-bottom: 1px solid #ffffff;
+			width: 140px;
+			margin: 16px auto;
+		}
+        .top-heading .top-row .h-title.grey-gradient h1 {
+            margin-top: 150px;
+            margin-top: 130px;/*1700px*/
+            margin-top: 90px;/*1300px*/
+        }
+		.content .top-heading .center-row {
+			height: 500px;
+            height: 430px;/*1700px*/
+            height: 328px;/*1300px*/
+		}
+		.content .top-heading .center-row h1, .bottom .top-row .black h1{
+			margin: 45px 0 25px 0;
+			text-align: center;	
+		}
+		.content .bottom .top-row .black h2{
+			text-align: center;	
+			margin-left: 220px;/*1980*/
+			margin-left:180px;/*1700px*/
+            margin-left:140px;/*1300px*/
+		}
+		.content .top-heading .center-row .border-table,
+		 .bottom .top-row .border-table{
+			margin-left: 220px;/*1980*/
+			margin-left:180px;/*1700px*/
+            margin-left:140px;/*1300px*/
+		}
+		.content .top-heading .center-row .photo{
+			background-image: url('/images/analitics_persons.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 500px;
+            height: 430px;/*1700px*/
+            height: 328px;/*1300px*/
+		}
+		.content .top-heading .bottom-row {
+			height: 505px;
+            height: 434px;/*1700px*/
+            height: 332px;/*1300px*/
+		}
+		.content .top-heading .bottom-row .photo{
+			background-image: url('/images/analitics1.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 494px;
+            height: 424px;/*1700px*/
+            height: 324px;/*1300px*/
+			/*width: 988px;*/
+		}		
+		.content .top-heading .top-row >
+		div {
+			height: inherit;
+			text-transform: uppercase;
+		}
+		.border-table {
+		  padding: 20px;
+		  padding-bottom: 10px;
+		  margin: 20px;
+		  border-radius: 10px;
+		  border-top: 1px solid #53443a;
+		  border-bottom: 1px solid #53443a;
+		  border-left: 1px solid #8f7856;
+		  border-right: 1px solid #8f7856;
+		}
+				
+		.h-title {
+		}
+		.content .bottom .top-row {
+			height: 830px;
+            height: 712px;/*1700px*/
+            height: 545px;/*1300px*/
+		}
+		.content .bottom .top-row .photo {
+			background-image: url('/images/analitics_forex.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 496px;
+			/*width: 988px;*/
+            height: 426px;/*1700px*/
+            height: 326px;/*1300px*/
+		}
+		.content .bottom .bottom-row {
+			height: 665px;
+			height: 571px;/*1700px*/
+            height: 260px;/*1300px*/
+		}
+		.content .bottom .bottom-row .photo {
+			background-image: url('/images/analitics_down.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 665px;
+            height: 571px;/*1700px*/
+			/*width: 1979px;*/
+            height: 260px;/*1300px*/
+		}		h1 {
+		text-transform: uppercase;
+		font-size: 120%;
+		color: #ffffff;
+		}
+		h2 {
+			text-transform: uppercase;
+			font-size: 100%;
+			color: #ffffff;
+		}
+		h1 span:after {
+			display: block;
+			content: ' ';
+			margin-top: 10px;
+			background-image: url("/images/gold-header-after.png");
+			width: 110px;
+			margin-left:auto;
+			margin-right: auto;
+			height: 1px;
+		}
+		h1 span.img-title {
+			display: block;
+			position:relative;
+		}
+		h1 span.right-title:after {
+			display: none;
+		}
+		h1 span.right-title:before,
+		.vrez:before {
+			  display: inline-block;
+			  content: ' ';
+			  background-image: url("/images/hr.png");
+			  background-repeat: no-repeat;
+			  margin-right: 10px;
+			  height: 36px;
+			  width: 2px;
+			  background-size: contain;
+			  vertical-align: middle;
+		}
+		.grey {
+		color: #ffffff;
+		background-color: #363637;
+		}
+		.dark-grey {
+		background-color: #242424;
+		}
+		.grey-gradient {
+		color: #fff;
+		background: rgb(76,76,76);
+		background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(111,111,111,1) 50%, rgba(76,76,76,1) 100%);
+		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(76,76,76,1)), color-stop(50%,rgba(111,111,111,1)), color-stop(100%,rgba(76,76,76,1)));
+		background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: -o-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		background: linear-gradient(to right, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=1 );
+		text-align: center;
+		}
+		.content .top-heading {		
+		}	
+		.content .top-heading .top-row {
+			height: 350px;
+            height: 300px;/*1700px*/
+            height: 230px;/*1300px*/
+		}
+		.top-heading .top-row .h-title.grey .block-title {
+			text-align: center;	
+			margin-top: 100px;
+            margin-top: 80px;/*1700px*/
+            margin-top: 45px;/*1300px*/
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(1) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_fond_merchant.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(3) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_forex.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.top-heading .top-row .h-title.grey .block-title .img-title:nth-child(5) {
+			display: block;
+			height: 24px;
+			content: "";
+			background-image: url('/images/analityka_products_merchant.png');
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+		.hr-divider{
+			border-bottom: 1px solid #ffffff;
+			width: 140px;
+			margin: 16px auto;
+		}
+        .top-heading .top-row .h-title.grey-gradient h1 {
+            margin-top: 150px;
+            margin-top: 130px;/*1700px*/
+            margin-top: 90px;/*1300px*/
+        }
+		.content .top-heading .center-row {
+			height: 500px;
+            height: 430px;/*1700px*/
+            height: 328px;/*1300px*/
+		}
+		.content .top-heading .center-row h1, .bottom .top-row .black h1{
+			margin: 45px 0 25px 0;
+			text-align: center;	
+		}
+		.content .bottom .top-row .black h2{
+			text-align: center;	
+			margin-left: 220px;/*1980*/
+			margin-left:180px;/*1700px*/
+            margin-left:140px;/*1300px*/
+		}
+		.content .top-heading .center-row .border-table,
+		 .bottom .top-row .border-table{
+			margin-left: 220px;/*1980*/
+			margin-left:180px;/*1700px*/
+            margin-left:140px;/*1300px*/
+		}
+		.content .top-heading .center-row .photo{
+			background-image: url('/images/analitics_persons.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 500px;
+            height: 430px;/*1700px*/
+            height: 328px;/*1300px*/
+		}
+		.content .top-heading .bottom-row {
+			height: 505px;
+            height: 434px;/*1700px*/
+            height: 332px;/*1300px*/
+		}
+		.content .top-heading .bottom-row .photo{
+			background-image: url('/images/analitics1.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 494px;
+            height: 424px;/*1700px*/
+            height: 324px;/*1300px*/
+			/*width: 988px;*/
+		}		
+		.content .top-heading .top-row >
+		div {
+			height: inherit;
+			text-transform: uppercase;
+		}
+		.border-table {
+		  padding: 20px;
+		  padding-bottom: 10px;
+		  margin: 20px;
+		  border-radius: 10px;
+		  border-top: 1px solid #53443a;
+		  border-bottom: 1px solid #53443a;
+		  border-left: 1px solid #8f7856;
+		  border-right: 1px solid #8f7856;
+		}
+				
+		.h-title {
+		}
+		.content .bottom .top-row {
+			height: 830px;
+            height: 712px;/*1700px*/
+            height: 545px;/*1300px*/
+		}
+		.content .bottom .top-row .photo {
+			background-image: url('/images/analitics_forex.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 496px;
+			/*width: 988px;*/
+            height: 426px;/*1700px*/
+            height: 326px;/*1300px*/
+		}
+		.content .bottom .bottom-row {
+			height: 665px;
+			height: 571px;/*1700px*/
+            height: 260px;/*1300px*/
+		}
+		.content .bottom .bottom-row .photo {
+			background-image: url('/images/analitics_down.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			height: 665px;
+            height: 571px;/*1700px*/
+			/*width: 1979px;*/
+            height: 260px;/*1300px*/
+		}

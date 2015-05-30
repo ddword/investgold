@@ -1,0 +1,27 @@
+@media (min-width: 1300px) {
+
+    .content > div:nth-child(2) p {
+        margin-top: 1%;
+    }
+    .content > div:nth-child(2) {
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 105%;
+    }
+
+    table.table {
+        font-size: 80%;
+    }
+    h2 {
+        font-size: 110%;
+    }
+    .content > div:nth-child(1) > div:nth-child(2) {
+        margin-left: 7%;
+        margin-top: 5%;
+        font-size: 100%;
+    }
+    .content > div:nth-child(1) > div:nth-child(1) a > span > span:before,
+    .content > div:nth-child(1) > div:nth-child(1) a > span > span:after {
+        width: 230px;
+    }
+}

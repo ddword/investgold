@@ -1,0 +1,14 @@
+@media (min-width: 1980px) {
+    .content .heading div {
+        height: 350px;
+    }
+    .content .heading div:nth-child(2) h1 span {
+        font-size: 110%;
+    }
+    .content .heading div:nth-child(2) h1 {
+        margin-top: 95px;
+    }
+    .content .heading.second img {
+        width: 600px;
+    }
+}
