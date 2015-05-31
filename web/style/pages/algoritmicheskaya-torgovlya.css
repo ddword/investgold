@@ -218,7 +218,7 @@ span.gold-title {
 }
 .epigf h1 {
     margin-top: 0;
-    -        }
+ }
 .epigf .divider {
     margin-bottom: 10px;
 }
@@ -303,6 +303,7 @@ div.titl-label {
     height: 40px;
     color: #ffffff;
     padding: 8px 12px;
+    background-color: #363637;
 }
 
 .form-ordr .form-group .titl-label {
@@ -347,6 +348,7 @@ div.titl-label {
     color: #dabf8d;
     font-size: 110%;
     padding: 8px 12px;
+    background-color: #363637;
 }
 button.gold-bord.order:hover,
 button.gold-bord.order:focus,

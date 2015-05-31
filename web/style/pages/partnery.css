@@ -1,0 +1,419 @@
+p{
+    color: #fff;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 140%;
+    color: #ffffff;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 100%;
+    color: #ffffff;
+    margin: 10px 0; /*1980*/
+}
+h1 span:after {
+    display: block;
+    content: ' ';
+    margin-top: 10px;
+    background-image: url("/images/gold-header-after.png");
+    width: 110px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 1px;
+}
+h1 span.img-title {
+    display: block;
+    position:relative;
+}
+h1 span.right-title:after {
+    display: none;
+}
+h1 span.right-title:before {
+    display: inline-block;
+    content: ' ';
+    background-image: url("/images/hr.png");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    height: 36px;
+    width: 2px;
+    background-size: contain;
+    vertical-align: middle;
+}
+span.gold-title {
+    color: #d3b98c;
+    font-size: 120%;
+}
+.vrez p {
+    margin-left: 20px;
+}
+.vrez:before {
+    display: block;
+    float: left;
+    content: ' ';
+    background-image: url("/images/hr.png");
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 36px;
+    width: 2px;
+    background-size: contain;
+    vertical-align: text-top;
+}
+.black-bl {
+    background-color: #000000;
+}
+.grey {
+    color: #ffffff;
+    background-color: #363637;
+}
+.dark-grey {
+    background-color: #242424;
+}
+.grey-gradient {
+    color: #fff;
+    background: rgb(76,76,76);
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(111,111,111,1) 50%, rgba(76,76,76,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(76,76,76,1)), color-stop(50%,rgba(111,111,111,1)), color-stop(100%,rgba(76,76,76,1)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=1 );
+    text-align: center;
+}
+.divider {
+    display: block;
+    content: ' ';
+    background-image: url("/images/gold-header-after.png");
+    width: 110px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 1px;
+}
+.hr-divider{
+    border-bottom: 1px solid #ffffff;
+    width: 140px;
+    margin: 16px auto;
+}
+
+.content.white-grey {
+    background-color: #363637;
+}
+
+.content .top-heading {
+}
+
+.top-heading .top-row .h-title.grey-gradient {
+    height: 350px;
+}
+.top-heading .top-row .top-photo{
+    background-color: #000000;
+}
+.top-heading .top-row .top-photo .photo {
+    background-image: url('/images/partners.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: -15px;
+    margin-right: -15px;
+    height: 506px;
+}
+.top-heading .top-row .h-title.grey-gradient h2 {
+    font-size: 110%;
+}
+
+.top-heading .top-row .h-title.grey-gradient span.img-title {
+    display: block;
+    height: 24px;
+    content: "";
+    background-image: url('/images/title-partners.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 130px;
+}
+
+.top-heading .top-row .h-title.grey{
+    padding: 0  0 0 20px;
+}
+.top-heading .top-row .h-title.grey h2{
+    line-height: 1.6;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.top-heading .top-row .h-title.grey h2 span.gold-title {
+    text-align: left;
+}
+
+.top-heading .top-row .h-title.grey .about p {
+    margin-bottom: 20px;
+}
+
+.top-heading .top-row .h-title.grey .about h2{
+    text-align: center;
+}
+.top-heading .top-row .h-title.grey .about span.gold-title {
+    font-size: 100%;
+}
+a .gold-button  {
+    display: block;
+    width: 247px;
+    display: block;
+    height: 70px;
+    background-image: url('/images/button-partner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+a .gold-button span{
+    font-size: 100%;
+    color: #2d2d2d;
+    font-family: "Tahoma";
+    font-weight: 300;
+    line-height: 70px;
+}
+.download-count .download a{
+    width: 140px;
+    margin: 0 auto;
+
+}
+.download-count a,.download-count .download{
+    display: inline-block;
+    height: 70px;
+    vertical-align: text-top;
+}
+.download-count .download {
+    margin-left: 20px;
+}
+.download-count .download span.gold-title {
+    margin-bottom:6px;
+}
+a .gold-button-small  {
+    width: 140px;
+    height: 40px;
+    background-image: url('/images/button-partner-small.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+a .gold-button-small span {
+    font-size: 100%;
+    color: #2d2d2d;
+    font-family: "Tahoma";
+    font-weight: 300;
+    line-height: 40px;
+}
+.about .download-count a,
+.about .download-count a:hover,
+.about .download-count a:focus{
+    text-decoration: none;
+}
+.about .download-count .download {
+    display: inline-block;
+    text-align: center;
+}
+
+.about .download-count .download span.gold-title {
+    text-transform: uppercase;
+}
+.about .download-count .download span.gold-title,
+.about .download-count .download a {
+    display: block;
+}
+
+.content.white-grey .article h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 110%;
+}
+.content.white-grey .article .border-table{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.content.white-grey .article .safety-capital .vrez {
+    margin-bottom: 20px;
+}
+.content.white-grey .article.color-block-border .text-bl {
+    text-align: center;
+}
+.content.white-grey .container-advert{
+
+}
+.content.white-grey .container-advert .border-table {
+    height: 480px;
+    padding: 10px;
+}
+.content.white-grey .container-advert .border-table p{
+    text-align: center;
+    line-height: 2;
+}
+.content h1 span.img-title.right-title {
+    margin: 40px 0 20px 0;
+}
+
+.content .bottom .top-row .black-bl h2,
+.content .top-heading .bottom-row .black-bl h1,
+.content .top-heading .bottom-row .black-bl .img-title,
+.bottom .top-row .black-bl h1 {
+    text-align: center;
+}
+
+.content>.top-heading >.top-row > div {
+    height: inherit;
+    text-transform: uppercase;
+}
+.border-table {
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: 20px;
+    color: #ffffff;
+}
+.gold-bord,
+.border-table {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-top: 1px solid #53443a;
+    border-bottom: 1px solid #53443a;
+    border-left: 1px solid #8f7856;
+    border-right: 1px solid #8f7856;
+}
+.border-table ul {
+    padding-left: 20px;
+    list-style-position: outside;
+    list-style-image: url("/images/list-item2.png");
+}
+.epigf h1 {
+    margin-top: 0;
+}
+.epigf .divider {
+    margin-bottom: 10px;
+}
+.epigf h1 span:after {
+    margin-top: 0;
+}
+.h-title {
+    height: inherit;
+}
+
+.content.white-grey .color-block-border {
+    border-top: 1px solid #4c4d4e;
+    border-bottom: 1px solid #4c4d4e;
+}
+.content.white-grey .color-block-border h2 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+
+.content.white-grey .color-block-border .vrez h2 {
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+.content.white-grey .color-block-border .vrez:before {
+    margin-right: 20px;
+}
+
+div.titl-label {
+    text-align: right;
+}
+.content.white-grey .sertif {
+    margin-bottom: 60px;
+}
+.content.white-grey .sertif .border-table {
+    padding: 5px;
+    margin: 30px;
+    background-color: #000000;
+}
+.content.white-grey .sertif h2{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.content.white-grey .sertif .border-table.alfbank{
+    background-image: url('/images/alfa-partner1.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 640px;
+    width: 454px;
+}
+.content.white-grey .sertif .border-table.invest{
+    background-image: url('/images/invest-partner2.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 640px;
+    width: 454px;
+}
+.content.white-grey .sertif .more-logo{
+
+}
+.content.white-grey .sertif .more-logo img{
+    display: block;
+    width: 200px;
+    margin: 30px auto 50px auto;
+}
+
+/* other*/
+@media (max-width: 1700px) {
+    .content.white-grey .container-advert .border-table {
+        height: 360px;
+    }
+    .top-heading .top-row .h-title.grey-gradient {
+        height: 300px;/*1700px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient span.img-title {
+        margin-top: 110px;/*1700*/
+    }
+    .top-heading .top-row .top-photo .photo {
+        height: 434px;/*1700px*/
+    }
+    .content.white-grey .sertif .border-table.alfbank,
+    .content.white-grey .sertif .border-table.invest{
+        height: 516px;
+        width: 366px;
+    }
+    .content.white-grey .sertif .more-logo img{
+        display: block;
+        width: 130px;
+        margin: 30px auto 50px auto;
+    }
+}
+@media (max-width: 1300px) {
+    .content.white-grey .container-advert .border-table {
+        height: 400px;
+    }
+    .top-heading .top-row .h-title.grey-gradient {
+        height: 230px;/*1300px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient span.img-title {
+        margin-top: 80px;/*1300*/
+    }
+    .top-heading .top-row .top-photo .photo {
+        height: 332px;/*1300px*/
+    }
+
+    .content.white-grey .text-bl .border-table p {
+        line-height: 1.6;
+    }
+    .content.white-grey .sertif .border-table.alfbank,
+    .content.white-grey .sertif .border-table.invest{
+        height: 479px;
+        width: 340px;
+        margin: 20px auto;
+    }
+    .content.white-grey .sertif .more-logo img{
+        display: block;
+        width: 120px;
+        margin: 30px auto 50px auto;
+    }
+}
+@media (max-width: 1199px) {
+    .content.white-grey .sertif .more-logo img{
+        display: block;
+        width: 200px;
+        margin: 30px auto 30px auto;
+    }
+}
