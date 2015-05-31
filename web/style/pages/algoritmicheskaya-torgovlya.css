@@ -124,18 +124,20 @@ span.gold-title {
     margin: 16px auto;
 }
 
-.content .white-grey {
+.content.white-grey {
     background-color: #363637;
 }
-.content .white-grey .text-bl {
+.content.white-grey .text-bl,
+.content.white-grey .color-block-border,
+.content.white-grey .statistics {
     padding: 30px 120px;
 }
 
-.content .white-grey .text-bl .vrez {
-    margin-bottom: 30px;
+.content.white-grey .text-bl .vrez {
+    margin-bottom: 40px;
 }
 
-.content .white-grey .text-bl .photo.person {
+.content.white-grey .text-bl .photo.person {
     background-image: url('/images/algoritm_human.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -145,26 +147,27 @@ span.gold-title {
     margin-left: -15px;
     margin-right: -15px;
 }
-.content .white-grey .text-bl .border-table {
+.content.white-grey .text-bl .border-table {
     text-align: center;
     margin-bottom: 0;
     margin-top: 0;
     height: 198px;
-    padding: 30px 20px;
+    padding: 20px 20px;
 }
-.content .white-grey .text-bl .border-table p {
+.content.white-grey .text-bl .border-table p {
     vertical-align: middle;
     margin-bottom: 0;
     line-height: 2;
 }
-.content .white-grey .text-bl .border-table p, span {
+.content.white-grey .text-bl .border-table p, span {
     font-size: 100%;
 }
-.content .white-grey .text-bl .border-table span.gold-title{
+.content.white-grey .text-bl .border-table span.gold-title{
     display: block;
     margin-bottom: 0;
     text-transform: uppercase;
     margin-top: 30px;
+    font-size: 100%;
 }
 
 .content h1 span.img-title.right-title {
@@ -182,12 +185,12 @@ span.gold-title {
     margin-top: 0;
 }
 
-.content .white-grey .text-bl span.gold-title {
+.content.white-grey .text-bl span.gold-title {
     display: block;
     margin-bottom: 30px;
     text-align: center;
 }
-.content .white-grey .text-bl .vrez span.gold-title {
+.content.white-grey .text-bl .vrez span.gold-title {
     display: inline-block;
     font-size: 100%;
     color: #d7bc8d;
@@ -203,6 +206,10 @@ span.gold-title {
     padding: 20px;
     padding-bottom: 10px;
     margin: 20px;
+}
+.gold-bord,
+.border-table {
+    padding-bottom: 10px;
     border-radius: 10px;
     border-top: 1px solid #53443a;
     border-bottom: 1px solid #53443a;
@@ -222,17 +229,25 @@ span.gold-title {
     height: inherit;
 }
 
-.content .white-grey .block-border {
+.content.white-grey .color-block-border {
     border-top: 1px solid #4c4d4e;
     border-bottom: 1px solid #4c4d4e;
 }
-.content .white-grey .block-border h2 {
+.content.white-grey .color-block-border h2,
+.content.white-grey .statistics h2,
+.content.white-grey .form-ordr h2 {
     text-align: center;
+    margin: 40px 0 20px 0;
 }
-.content .white-grey .block-border .vrez h2 {
+
+.content.white-grey .color-block-border .vrez h2 {
     text-align: left;
+    margin: 20px 0 20px 0;
 }
-.content .white-grey .block-border .photo.infogr {
+.content.white-grey .color-block-border .vrez:before {
+    margin-right: 20px;
+}
+.content.white-grey .color-block-border .photo.infogr {
     background-image: url('/images/quantum-infographic.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -241,32 +256,108 @@ span.gold-title {
     margin-left: -15px;
     margin-right: -15px;
 }
-.content .white-grey .statistics {
+.content.white-grey .statistics {
     border-bottom: 1px solid #4c4d4e;
     text-align: center;
 }
-.content .white-grey .statistics .photo.statistic {
+.content.white-grey .statistics .photo.statistic {
     background-image: url('/images/quantum-statistics.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 848px;
-
     background-size: contain;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-bottom: 20px;
 }
-.content .white-grey .form-ordr {
+.content.white-grey .form-ordr {
     text-align: center;
+    margin-bottom: 40px;
 }
-.content .white-grey .form-ordr .shema {
-    background-image: url('/images/algoritm_torg_text5.jpg');
+.content.white-grey .form-ordr .info {
+    background-image: url('/images/quantum-info.png');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1186px;
+    height: 122px;
     background-size: contain;
     margin-left: -15px;
     margin-right: -15px;
 }
+
+.content.white-grey .form-ordr form.order-form {
+    margin-top: 30px;
+}
+.form-ordr .form-group label {
+    color: #dabf8d;
+    display: block;
+    font-weight: normal;
+    font-size: 100%;
+}
+div.titl-label {
+    text-align: right;
+}
+
+.form-ordr .form-group label span {
+    display: inline-block;
+    color: #ffffff;
+}
+.form-ordr .form-group .form-control {
+    height: 40px;
+    color: #ffffff;
+    padding: 8px 12px;
+}
+
+.form-ordr .form-group .titl-label {
+    line-height: 40px;
+}
+.form-ordr .form-group .check-box {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.form-ordr .form-group .confirm {
+    text-align: left;
+}
+
+.form-ordr .form-group .check-box input[type="checkbox"] {
+    display: none;
+}
+.form-ordr .form-group .check-box a.check-box {
+    display: block;
+    height: 50px;
+    width: 50px;
+    content: "";
+    background-image: url('/images/quantum-checkbox.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 0;
+}
+.form-ordr .form-group .check-box a.check-box.checked,
+.form-ordr .form-group .check-box a.check-box:focus{
+    display: block;
+    height: 50px;
+    width: 50px;
+    content: "";
+    background-image: url('/images/quantum-checkbox-check.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form-ordr .form-group button.order {
+    width: 380px;
+    color: #dabf8d;
+    font-size: 110%;
+    padding: 8px 12px;
+}
+button.gold-bord.order:hover,
+button.gold-bord.order:focus,
+button.gold-bord.order:active{
+    text-decoration: none;
+    border-top: 1px solid #53443a;
+    border-bottom: 1px solid #53443a;
+    border-left: 1px solid #8f7856;
+    border-right: 1px solid #8f7856;
+}
+
 /* other*/
 @media (max-width: 1700px) {
     .content .top-heading .top-row,
@@ -276,14 +367,17 @@ span.gold-title {
     .top-heading .top-row .h-title.grey-gradient span.img-title {
         margin-top: 110px;/*1700*/
     }
-    .content .white-grey .text-bl {
+    .content.white-grey .text-bl,
+    .content.white-grey .color-block-border,
+    .content.white-grey .statistics {
         padding: 30px 80px;/*1700*/
     }
-    .content .white-grey .block-border .photo.infogr {
-        height: 644px;/*1700px*/
+    .content.white-grey .color-block-border .photo.infogr {
+        height: 620px;/*1700px*/
     }
-    .content .white-grey .statistics .photo.statistic {
+    .content.white-grey .statistics .photo.statistic {
         height: 728px;/*1700px*/
+        height: 620px;
     }
 }
 @media (max-width: 1300px) {
@@ -294,21 +388,29 @@ span.gold-title {
     .top-heading .top-row .h-title.grey-gradient span.img-title {
         margin-top: 80px;/*1300*/
     }
-    .content .white-grey .text-bl {
+    .content.white-grey .text-bl,
+    .content.white-grey .color-block-border,
+    .content.white-grey .statistics {
         padding: 30px 40px;/*1300*/
     }
-    .content .white-grey .text-bl .border-table span.gold-title{
-        margin-top: 0px;/*1300*/
+
+    .content.white-grey .color-block-border .photo.infogr {
+        height: 500px;/*1300px*/
     }
-    .content .white-grey .block-border .photo.infogr {
-        height: 792px;/*1300px*/
-    }
-    .content .white-grey .statistics .photo.statistic {
+    .content.white-grey .statistics .photo.statistic {
         height: 556px;/*1300px*/
+        height: 620px;
+    }
+    .content.white-grey .text-bl .border-table {
+        padding: 20px 20px;/*1300*/
+
+    }
+    .content.white-grey .text-bl .border-table p {
+        line-height: 1.6;
     }
 }
 @media (max-width: 1200px) {
-    .content .white-grey .text-bl .border-table {
-        padding: 20px 20px;/*1200*/
+    .content.white-grey .text-bl .border-table span.gold-title{
+        margin-top: 20px;/*1200*/
     }
 }

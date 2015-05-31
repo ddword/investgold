@@ -1,7 +1,7 @@
 {% extends "layout.twig" %}
 {% block content %}
-    <div class="row content">
-        <div class="col-xs-12 white-grey">
+    <div class="row content white-grey">
+        <div class="col-xs-12">
             <div class="row top-heading">
                 <div class="top-row">
                     <div class="col-xs-6 grey h-title">
@@ -16,10 +16,12 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="col-xs-12">
             <div class="row text-bl">
                 <div class="col-xs-12">
-                        <span class="gold-title">Группа профессиональных управляющих компании Invest-Gold создала уникальный алгоритмический робот,<br>
-                            аналогов в мире которому нет использующий квантовый анализ и назвали его Quantum Gold.</span>
+                            <span class="gold-title">Группа профессиональных управляющих компании Invest-Gold создала уникальный алгоритмический робот,<br>
+                                аналогов в мире которому нет использующий квантовый анализ и назвали его Quantum Gold.</span>
                     <div class="vrez">
                         <p><span class="gold-title">Квантовый анализ</span> - это тип прогнозирования, основанный на физических закономерностях квантовой механики. Данный метод анализа ценового движения
                             на бирже был разработан известным биржевым трейдером и бизнесменом Андре Дука. Квантовый анализ объясняет поведение цены с точки зрения законов
@@ -27,39 +29,93 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xs-2">
-                        <div class="photo person"></div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="photo person"></div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9">
+                    <div class="border-table">
+                        <p>
+                            Ярким примером, заработавший состояние, работая по квантовому анализу, вляется миллиардер Джордж Сорос.
+                            Основанный в 1973 г. хедж-фонд Дж. Сороса Quantum Endowmen принес своим клиентам 32 млрд долл.</p>
+                        <span class="gold-title">Команда опытных управляющих обеспечит профессиональную работу на Вашем счете</span>
                     </div>
-                    <div class="col-xs-10">
-                        <div class="border-table">
-                            <p>
-                                Ярким примером, заработавший состояние, работая по квантовому анализу, вляется миллиардер Джордж Сорос.
-                                Основанный в 1973 г. хедж-фонд Дж. Сороса Quantum Endowmen принес своим клиентам 32 млрд долл.</p>
-                            <span class="gold-title">Команда опытных управляющих обеспечит профессиональную работу на Вашем счете</span>
+                </div>
+            </div>
+            <div class="row color-block-border">
+                <div class="col-xs-12">
+                    <h2>Пример работы <span class="gold-title">Quantum Gold</span></h2>
+                    <div class="photo infogr"></div>
+                    <div class="vrez">
+                        <h2>ДОХОДНОСТЬ</h2>
+                        <p>Принципы алготрейдинга в доверительном управлении используютсяпри разработке инвестиционных стратегий для достижения наиболеепривлекательного
+                            соотношения риск/доходность, а также при созданиисложных продуктов для инвестирования свободных денежных средств накраткосрочном горизонте.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row statistics">
+                <div class="col-xs-12">
+                    <h2>Статистика работы <span class="gold-title">Quantum Gold</span></h2>
+                    <div class="photo statistic"></div>
+                    <p>Наши профессиональные управляющие активами помогут определиться с выбором стратегии, исходя из Ваших предпочтений.</p>
+                </div>
+            </div>
+            <div class="row form-ordr">
+                <div class="col-xs-12">
+                    <h2>Заполните заявку для получения консультации</h2>
+                    <div class="info"></div>
+                </div>
+                <div class="col-xs-12">
+                    <form class="form-horizontal order-form">
+                        <div class="form-group">
+                            <label>
+                                <div class="titl-label col-xs-3 col-sm-3 col-md-3">Ваш город</div>
+                                <div class="col-xs-7 col-sm-7 col-md-6">
+                                    <input type="text" class="white-grey gold-bord form-control" id="ville" name="ville">
+                                </div>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label>
+                                <div class="titl-label col-xs-3 col-sm-3 col-md-3">Имя</div>
+                                <div class="col-xs-7 col-sm-7 col-md-6">
+                                    <input type="text" class="white-grey gold-bord form-control" name="name">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <div class="titl-label col-xs-3 col-sm-3 col-md-3">Телефон</div>
+                                <div class="col-xs-7 col-sm-7 col-md-6">
+                                    <input class="white-grey gold-bord form-control" type="text" name="phone">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <div class="titl-label col-xs-3 col-sm-3 col-md-3">Электронная почта</div>
+                                <div class="col-xs-7 col-sm-7 col-md-6">
+                                    <input type="text" class="white-grey gold-bord form-control" name="mail">
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                <div class="col-xs-offset-3 col-xs-9 confirm">
+                                    <div class="check-box">
+                                        <input type="checkbox">
+                                        <a class="check-box"></a>
+                                    </div>
+                                    <span>Я даю согласие на передачу и обработку своих персональных данных</span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-offset-3 col-xs-9">
+                                <button type="submit" class="order white-grey gold-bord btn-block">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="block-border">
-                <h2>Пример работы <span class="gold-title">Quantum Gold</span></h2>
-                <div class="photo infogr"></div>
-                <div class="vrez">
-                    <h2>ДОХОДНОСТЬ</h2>
-                    <p>Принципы алготрейдинга в доверительном управлении используютсяпри разработке инвестиционных стратегий для достижения наиболеепривлекательного
-                        соотношения риск/доходность, а также при созданиисложных продуктов для инвестирования свободных денежных средств накраткосрочном горизонте.</p>
-                </div>
-            </div>
-            <div class="statistics">
-                <h2>Статистика работы <span class="gold-title">Quantum Gold</span></h2>
-                <div class="photo statistic"></div>
-                <p>Наши профессиональные управляющие активами помогут определиться с выбором стратегии, исходя из Ваших предпочтений.</p>
-            </div>
-            <div class="form-ordr">
-                <h2>Заполните заявку для получения консультации</h2>
-                <div class="shema"></div>
-            </div>
-
         </div>
     </div>
 {% endblock %}
