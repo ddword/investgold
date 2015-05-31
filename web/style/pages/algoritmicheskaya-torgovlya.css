@@ -87,8 +87,6 @@ span.gold-title {
 .content .top-heading .top-row,
 .top-heading .top-row .h-title.grey .photo {
     height: 350px;
-    height: 300px;/*1700px*/
-    height: 230px;/*1300px*/
 }
 .top-heading .top-row .h-title.grey .photo {
     background-image: url('/images/algoritm_quantum.jpg');
@@ -110,8 +108,6 @@ span.gold-title {
     background-repeat: no-repeat;
     background-position: center center;
     margin-top: 130px;
-    margin-top: 110px;/*1700*/
-    margin-top: 80px;/*1300*/
 }
 .divider {
     display: block;
@@ -133,8 +129,6 @@ span.gold-title {
 }
 .content .white-grey .text-bl {
     padding: 30px 120px;
-    padding: 30px 80px;/*1700*/
-    padding: 30px 40px;/*1700*/
 }
 
 .content .white-grey .text-bl .vrez {
@@ -157,7 +151,6 @@ span.gold-title {
     margin-top: 0;
     height: 198px;
     padding: 30px 20px;
-    padding: 20px 20px;/*1200*/
 }
 .content .white-grey .text-bl .border-table p {
     vertical-align: middle;
@@ -172,7 +165,6 @@ span.gold-title {
     margin-bottom: 0;
     text-transform: uppercase;
     margin-top: 30px;
-    margin-top: 0px;/*1300*/
 }
 
 .content h1 span.img-title.right-title {
@@ -244,9 +236,7 @@ span.gold-title {
     background-image: url('/images/quantum-infographic.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 496px;
-    height: 426px;/*1700px*/
-    height: 326px;/*1300px*/
+    height: 750px;
     background-size: contain;
     margin-left: -15px;
     margin-right: -15px;
@@ -259,9 +249,8 @@ span.gold-title {
     background-image: url('/images/quantum-statistics.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 496px;
-    height: 426px;/*1700px*/
-    height: 326px;/*1300px*/
+    height: 848px;
+
     background-size: contain;
     margin-left: -15px;
     margin-right: -15px;
@@ -273,10 +262,53 @@ span.gold-title {
     background-image: url('/images/algoritm_torg_text5.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 496px;
-    height: 426px;/*1700px*/
-    height: 326px;/*1300px*/
+    height: 1186px;
     background-size: contain;
     margin-left: -15px;
     margin-right: -15px;
+}
+/* other*/
+@media (max-width: 1700px) {
+    .content .top-heading .top-row,
+    .top-heading .top-row .h-title.grey .photo {
+        height: 300px;/*1700px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient span.img-title {
+        margin-top: 110px;/*1700*/
+    }
+    .content .white-grey .text-bl {
+        padding: 30px 80px;/*1700*/
+    }
+    .content .white-grey .block-border .photo.infogr {
+        height: 644px;/*1700px*/
+    }
+    .content .white-grey .statistics .photo.statistic {
+        height: 728px;/*1700px*/
+    }
+}
+@media (max-width: 1300px) {
+    .content .top-heading .top-row,
+    .top-heading .top-row .h-title.grey .photo {
+        height: 230px;/*1300px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient span.img-title {
+        margin-top: 80px;/*1300*/
+    }
+    .content .white-grey .text-bl {
+        padding: 30px 40px;/*1300*/
+    }
+    .content .white-grey .text-bl .border-table span.gold-title{
+        margin-top: 0px;/*1300*/
+    }
+    .content .white-grey .block-border .photo.infogr {
+        height: 792px;/*1300px*/
+    }
+    .content .white-grey .statistics .photo.statistic {
+        height: 556px;/*1300px*/
+    }
+}
+@media (max-width: 1200px) {
+    .content .white-grey .text-bl .border-table {
+        padding: 20px 20px;/*1200*/
+    }
 }
