@@ -1,0 +1,325 @@
+
+p{
+    color: #fff;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 140%;
+    color: #ffffff;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 100%;
+    color: #ffffff;
+    margin: 10px 0; /*1980*/
+}
+h1 span:after {
+    display: block;
+    content: ' ';
+    margin-top: 10px;
+    background-image: url("/images/gold-header-after.png");
+    width: 110px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 1px;
+}
+h1 span.img-title {
+    display: block;
+    position:relative;
+}
+h1 span.right-title:after {
+    display: none;
+}
+h1 span.right-title:before {
+    display: inline-block;
+    content: ' ';
+    background-image: url("/images/hr.png");
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    height: 36px;
+    width: 2px;
+    background-size: contain;
+    vertical-align: middle;
+}
+span.gold-title {
+    color: #d3b98c;
+    font-size: 120%;
+}
+.vrez p {
+    margin-left: 20px;
+}
+.vrez:before {
+    display: block;
+    float: left;
+    content: ' ';
+    background-image: url("/images/hr.png");
+    background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 36px;
+    width: 2px;
+    background-size: contain;
+    vertical-align: text-top;
+}
+.black-bl {
+    background-color: #000000;
+}
+.grey {
+    color: #ffffff;
+    background-color: #363637;
+}
+.dark-grey {
+    background-color: #242424;
+}
+.grey-gradient {
+    color: #fff;
+    background: rgb(76,76,76);
+    background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(111,111,111,1) 50%, rgba(76,76,76,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(76,76,76,1)), color-stop(50%,rgba(111,111,111,1)), color-stop(100%,rgba(76,76,76,1)));
+    background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    background: linear-gradient(to right, rgba(76,76,76,1) 0%,rgba(111,111,111,1) 50%,rgba(76,76,76,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=1 );
+    text-align: center;
+}
+.content .top-heading {
+}
+.content .top-heading .top-row,
+.top-heading .top-row .white.text-bl,
+.top-heading .top-row .h-title.grey-gradient {
+    height: 350px;
+}
+.content .top-heading .top-row .white.text-bl{
+    padding: 30px;
+}
+.content .top-heading .top-row .white.text-bl .block-title{
+    margin: auto;
+}
+.content .top-heading .top-row .white.text-bl .block-title p{
+    color: #000000;
+}
+
+.top-heading .top-row .h-title.grey-gradient h2,
+.top-heading .top-row .h-title.grey-gradient h1 {
+    font-size: 110%;
+    margin-top: 150px;
+}
+.divider {
+    display: block;
+    content: ' ';
+    background-image: url("/images/gold-header-after.png");
+    width: 110px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 1px;
+}
+
+.hr-divider{
+    border-bottom: 1px solid #ffffff;
+    width: 140px;
+    margin: 16px auto;
+}
+
+.white-grey {
+    background-color: #363637;
+}
+.content.white-grey .text-bl,
+.content.white-grey .color-block-border,
+.content.white-grey .statistics {
+    padding: 30px 120px;
+}
+
+.content.white-grey .text-bl .vrez {
+    margin-bottom: 40px;
+}
+
+.content.white-grey .text-bl .border-table {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    height: 198px;
+    padding: 20px 20px;
+}
+.content.white-grey .text-bl .border-table p {
+    vertical-align: middle;
+    margin-bottom: 0;
+    line-height: 2;
+}
+.content.white-grey .text-bl .border-table p, span {
+    font-size: 100%;
+}
+.content.white-grey .text-bl .border-table span.gold-title{
+    display: block;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 100%;
+}
+
+.content h1 span.img-title.right-title {
+    margin: 40px 0 20px 0;
+}
+
+.content .bottom .top-row .black-bl h2,
+.content .top-heading .bottom-row .black-bl h1,
+.content .top-heading .bottom-row .black-bl .img-title,
+.bottom .top-row .black-bl h1 {
+    text-align: center;
+}
+
+.content .bottom .bottom-row h1 {
+    margin-top: 0;
+}
+
+.content.white-grey .text-bl span.gold-title {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.content.white-grey .text-bl .vrez span.gold-title {
+    display: inline-block;
+    font-size: 100%;
+    color: #d7bc8d;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.content>.top-heading >.top-row > div {
+    height: inherit;
+    text-transform: uppercase;
+}
+.border-table {
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.gold-bord,
+.border-table {
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-top: 1px solid #53443a;
+    border-bottom: 1px solid #53443a;
+    border-left: 1px solid #8f7856;
+    border-right: 1px solid #8f7856;
+}
+.epigf h1 {
+    margin-top: 0;
+    -        }
+.epigf .divider {
+    margin-bottom: 10px;
+}
+.epigf h1 span:after {
+    margin-top: 0;
+}
+.h-title {
+    height: inherit;
+}
+
+.content.white-grey .color-block-border {
+    border-top: 1px solid #4c4d4e;
+    border-bottom: 1px solid #4c4d4e;
+}
+.content.white-grey .color-block-border h2,
+.content.white-grey .statistics h2,
+.content.white-grey .form-ordr h2 {
+    text-align: center;
+    margin: 40px 0 20px 0;
+}
+.pattern{
+
+}
+.content .pattern .invest {
+    margin: 40px 0;
+}
+.content .pattern .invest .invest-photo {
+    background-image: url('/images/invest.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 390px;
+    background-size: contain;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.light-grey{
+    background-color: #4c4c4c;
+}
+.content .light-grey .statistics {
+    margin: 40px;
+    text-align: center;
+}
+.content .light-grey .statistics h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content .statistics .infografiq {
+    background-image: url('/images/invest-info.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 380px;
+    background-size: contain;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+div.titl-label {
+    text-align: right;
+}
+/* other*/
+@media (max-width: 1700px) {
+    .content .top-heading .top-row,
+    .top-heading .top-row .white.text-bl,
+    .top-heading .top-row .h-title.grey-gradient {
+        height: 300px;/*1700px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient h2,
+    .top-heading .top-row .h-title.grey-gradient h1 {
+        margin-top: 110px;/*1700*/
+    }
+    .content.white-grey .text-bl,
+    .content.white-grey .color-block-border,
+    .content.white-grey .statistics {
+        padding: 30px 80px;/*1700*/
+    }
+    .content.white-grey .color-block-border .photo.infogr {
+        height: 620px;/*1700px*/
+    }
+    .content.white-grey .statistics .photo.statistic {
+        height: 728px;/*1700px*/
+        height: 620px;
+    }
+}
+@media (max-width: 1300px) {
+    .content .top-heading .top-row,
+    .top-heading .top-row .white.text-bl,
+    .top-heading .top-row .h-title.grey-gradient {
+        height: 300px;/*1300px*/
+    }
+    .top-heading .top-row .h-title.grey-gradient h1,
+    .top-heading .top-row .h-title.grey-gradient h2 {
+        margin-top: 110px;/*1300*/
+    }
+
+    .content.white-grey .color-block-border .photo.infogr {
+        height: 500px;/*1300px*/
+    }
+    .content.white-grey .statistics .photo.statistic {
+        height: 556px;/*1300px*/
+        height: 620px;
+    }
+    .content.white-grey .text-bl .border-table {
+        padding: 20px 20px;/*1300*/
+
+    }
+    .content.white-grey .text-bl .border-table p {
+        line-height: 1.6;
+    }
+}
+@media (max-width: 1200px) {
+    .content.white-grey .text-bl .border-table span.gold-title{
+        margin-top: 20px;/*1200*/
+    }
+    .content.white-grey .top-heading .top-row .white.text-bl{
+        padding: 20px;
+    }
+}
