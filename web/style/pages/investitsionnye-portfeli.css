@@ -227,7 +227,8 @@ span.gold-title {
     margin: 40px 0 20px 0;
 }
 .pattern{
-
+    background-image: url("/images/invest-pattern.png");
+    background-repeat: repeat;
 }
 .content .pattern .invest {
     margin: 40px 0;
